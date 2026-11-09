@@ -61,4 +61,14 @@
         app:layout_constraintStart_toStartOf="@+id/right_text_field"
         app:layout_constraintEnd_toEndOf="@+id/right_text_field" />
 
+    <!-- Buton Navigare catre Activitatea Secundara (C.2) -->
+    <Button
+        android:id="@+id/navigate_to_secondary_activity_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Navigate to Secondary Activity"
+        android:layout_marginTop="32dp"
+        app:layout_constraintTop_toBottomOf="@+id/left_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
